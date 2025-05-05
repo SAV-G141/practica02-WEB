@@ -1,0 +1,21 @@
+{
+  "name": "user-role-crud",
+  "version": "1.0.0",
+  "description": "CRUD app with Node.js, Express, MySQL and Multer for user and role management",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "author": "",
+  "license": "ISC"
+}
